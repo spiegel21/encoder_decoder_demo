@@ -1,0 +1,183 @@
+[nltk_data] Downloading package punkt to
+[nltk_data]     /Users/eduardospiegel/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+Running Part 1: Classification Task
+Loading data and creating tokenizer ...
+Vocabulary size is 5755
+Number of parameters: 0.50M
+Starting training...
+Epoch 1/15 - Batch 0/131 - Loss: 1.1325
+Epoch 1/15 - Batch 100/131 - Loss: 1.0952
+
+Epoch 1/15:
+Train Loss: 1.0738
+Train Accuracy: 43.07%
+Test Accuracy: 33.33%
+------------------------------------------------------------
+Epoch 2/15 - Batch 0/131 - Loss: 0.9848
+Epoch 2/15 - Batch 100/131 - Loss: 1.0260
+
+Epoch 2/15:
+Train Loss: 0.9550
+Train Accuracy: 51.58%
+Test Accuracy: 37.33%
+------------------------------------------------------------
+Epoch 3/15 - Batch 0/131 - Loss: 0.8397
+Epoch 3/15 - Batch 100/131 - Loss: 1.0510
+
+Epoch 3/15:
+Train Loss: 0.8675
+Train Accuracy: 60.04%
+Test Accuracy: 63.20%
+------------------------------------------------------------
+Epoch 4/15 - Batch 0/131 - Loss: 0.7574
+Epoch 4/15 - Batch 100/131 - Loss: 0.7122
+
+Epoch 4/15:
+Train Loss: 0.7585
+Train Accuracy: 65.82%
+Test Accuracy: 61.87%
+------------------------------------------------------------
+Epoch 5/15 - Batch 0/131 - Loss: 0.8561
+Epoch 5/15 - Batch 100/131 - Loss: 0.7797
+
+Epoch 5/15:
+Train Loss: 0.7483
+Train Accuracy: 65.68%
+Test Accuracy: 64.93%
+------------------------------------------------------------
+Epoch 6/15 - Batch 0/131 - Loss: 0.4634
+Epoch 6/15 - Batch 100/131 - Loss: 0.6690
+
+Epoch 6/15:
+Train Loss: 0.5700
+Train Accuracy: 75.29%
+Test Accuracy: 70.00%
+------------------------------------------------------------
+Epoch 7/15 - Batch 0/131 - Loss: 0.6139
+Epoch 7/15 - Batch 100/131 - Loss: 0.4530
+
+Epoch 7/15:
+Train Loss: 0.4430
+Train Accuracy: 82.17%
+Test Accuracy: 75.60%
+------------------------------------------------------------
+Epoch 8/15 - Batch 0/131 - Loss: 0.2747
+Epoch 8/15 - Batch 100/131 - Loss: 0.1153
+
+Epoch 8/15:
+Train Loss: 0.2905
+Train Accuracy: 88.72%
+Test Accuracy: 85.20%
+------------------------------------------------------------
+Epoch 9/15 - Batch 0/131 - Loss: 0.1740
+Epoch 9/15 - Batch 100/131 - Loss: 0.0843
+
+Epoch 9/15:
+Train Loss: 0.1903
+Train Accuracy: 93.69%
+Test Accuracy: 86.53%
+------------------------------------------------------------
+Epoch 10/15 - Batch 0/131 - Loss: 0.0650
+Epoch 10/15 - Batch 100/131 - Loss: 0.0213
+
+Epoch 10/15:
+Train Loss: 0.1296
+Train Accuracy: 95.79%
+Test Accuracy: 85.33%
+------------------------------------------------------------
+Epoch 11/15 - Batch 0/131 - Loss: 0.0184
+Epoch 11/15 - Batch 100/131 - Loss: 0.1335
+
+Epoch 11/15:
+Train Loss: 0.1088
+Train Accuracy: 96.61%
+Test Accuracy: 86.67%
+------------------------------------------------------------
+Epoch 12/15 - Batch 0/131 - Loss: 0.0339
+Epoch 12/15 - Batch 100/131 - Loss: 0.0260
+
+Epoch 12/15:
+Train Loss: 0.0893
+Train Accuracy: 97.23%
+Test Accuracy: 87.60%
+------------------------------------------------------------
+Epoch 13/15 - Batch 0/131 - Loss: 0.0713
+Epoch 13/15 - Batch 100/131 - Loss: 0.0506
+
+Epoch 13/15:
+Train Loss: 0.0770
+Train Accuracy: 97.66%
+Test Accuracy: 87.07%
+------------------------------------------------------------
+Epoch 14/15 - Batch 0/131 - Loss: 0.0616
+Epoch 14/15 - Batch 100/131 - Loss: 0.2284
+
+Epoch 14/15:
+Train Loss: 0.0649
+Train Accuracy: 97.94%
+Test Accuracy: 88.27%
+------------------------------------------------------------
+Epoch 15/15 - Batch 0/131 - Loss: 0.0294
+Epoch 15/15 - Batch 100/131 - Loss: 0.0081
+
+Epoch 15/15:
+Train Loss: 0.0726
+Train Accuracy: 97.90%
+Test Accuracy: 87.60%
+------------------------------------------------------------
+Input tensor shape: torch.Size([1, 32])
+Number of attention maps: 8
+Sanity check complete.
+Final best test accuracy: 88.27%
+
+Running Part 2: Language Modeling Task
+Loading data and creating tokenizer ...
+Vocabulary size is 5755
+Number of parameters: 0.86M
+Starting training...
+
+Iteration 0:
+Train perplexity: 5311.35
+Obama test perplexity: 5325.77
+Wbush test perplexity: 5306.10
+Hbush test perplexity: 5286.17
+------------------------------------------------------------
+
+Iteration 100:
+Train perplexity: 482.90
+Obama test perplexity: 580.19
+Wbush test perplexity: 664.04
+Hbush test perplexity: 604.83
+------------------------------------------------------------
+
+Iteration 200:
+Train perplexity: 244.61
+Obama test perplexity: 383.31
+Wbush test perplexity: 473.30
+Hbush test perplexity: 424.16
+------------------------------------------------------------
+
+Iteration 300:
+Train perplexity: 151.45
+Obama test perplexity: 342.02
+Wbush test perplexity: 418.27
+Hbush test perplexity: 381.61
+------------------------------------------------------------
+
+Iteration 400:
+Train perplexity: 106.70
+Obama test perplexity: 316.62
+Wbush test perplexity: 414.90
+Hbush test perplexity: 365.31
+------------------------------------------------------------
+
+Iteration 499:
+Train perplexity: 82.12
+Obama test perplexity: 324.38
+Wbush test perplexity: 450.52
+Hbush test perplexity: 373.65
+------------------------------------------------------------
+Input tensor shape: torch.Size([1, 32])
+Number of attention maps: 8
+Sanity check complete.
