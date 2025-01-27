@@ -1,4 +1,4 @@
-# CSE156 PA2: Transformer Implementation
+# Transformer Implementation
 
 This project implements transformer encoders and decoders from scratch for two different NLP tasks:
 1. Speech Classification: Predicting which politician gave a speech segment
